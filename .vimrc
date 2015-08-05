@@ -54,6 +54,7 @@ set autowrite           " Automatically save before commands like :next and :mak
 set mouse=a             " Enable mouse usage (all modes)
 set ruler
 set nu
+set backspace=indent,eol,start
 
 " Source a global configuration file if available
 if filereadable("/etc/vim/vimrc.local")
