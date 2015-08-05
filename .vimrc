@@ -1,8 +1,3 @@
-set ts=2
-set sw=2
-set nobackup
-set encoding=utf-8
-
 " All system-wide defaults are set in $VIMRUNTIME/debian.vim (usually just
 " /usr/share/vim/vimcurrent/debian.vim) and sourced by the call to :runtime
 " you can find below.  If you wish to change any of those settings, you should
@@ -50,11 +45,15 @@ set ignorecase          " Do case insensitive matching
 set smartcase           " Do smart case matching
 set incsearch           " Incremental search
 set autowrite           " Automatically save before commands like :next and :make
-"set hidden             " Hide buffers when they are abandoned
+set hidden             " Hide buffers when they are abandoned
 set mouse=a             " Enable mouse usage (all modes)
 set ruler
 set nu
 set backspace=indent,eol,start
+set ts=2
+set sw=2
+set nobackup
+set encoding=utf-8
 
 " Source a global configuration file if available
 if filereadable("/etc/vim/vimrc.local")
