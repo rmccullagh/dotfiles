@@ -54,6 +54,8 @@ set ts=2
 set sw=2
 set nobackup
 set encoding=utf-8
+cnoreabbrev X x
+set cc=80
 
 " Source a global configuration file if available
 if filereadable("/etc/vim/vimrc.local")
