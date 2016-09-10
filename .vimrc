@@ -23,7 +23,7 @@ endif
 
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
-set background=dark
+set background=light
 
 " Uncomment the following to have Vim jump to the last position when
 " reopening a file
@@ -53,11 +53,13 @@ set backspace=indent,eol,start
 set ts=2
 set sw=2
 set nobackup
+set colorcolumn=80
 set encoding=utf-8
 cnoreabbrev X x
-set cc=80
+cnoreabbrev W x
 
 " Source a global configuration file if available
 if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
+
