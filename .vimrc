@@ -59,7 +59,7 @@ set nobackup
 set colorcolumn=80
 set encoding=utf-8
 cnoreabbrev X x
-cnoreabbrev W x
+cnoreabbrev W w
 
 " Source a global configuration file if available
 if filereadable("/etc/vim/vimrc.local")
