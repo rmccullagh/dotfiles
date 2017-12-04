@@ -50,8 +50,8 @@ set mouse=a             " Enable mouse usage (all modes)
 set ruler
 set nu
 set backspace=indent,eol,start
-set tabstop=8
-set shiftwidth=4
+set tabstop=4
+set shiftwidth=2
 set softtabstop=0
 set expandtab
 set smarttab
